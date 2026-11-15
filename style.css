@@ -1,0 +1,14 @@
+body{
+    background-color: burlywood;
+}
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    object-fit: contain;
+    background: black;
+    z-index: 9999;
+    cursor: pointer;
+}
