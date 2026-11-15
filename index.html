@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lamborgini Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Lambo!</h1>
+<h4>Click here to Claim your lambo</h4>
+<img
+    id="myImage"
+    src="static-picture.jpeg"
+    data-gif="animation.gif"
+    alt="Click to play GIF"
+    style="cursor: pointer; width: 300px;"
+/>
+
+<script>
+  const img = document.getElementById("myImage");
+
+img.addEventListener("click", function() {
+
+    if (!img.classList.contains("fullscreen")) {
+        img.src = "animation.gif";
+        img.classList.add("fullscreen");
+
+    } else {
+        img.src = "static-picture.jpeg";
+        img.classList.remove("fullscreen");
+    }
+
+});
+</script>
+
+<p>A Lamborghini is an Italian luxury sports car brand famous for making extremely fast, powerful, and expensive supercars. Lamborghini cars are known for their bold designs, powerful engines, and incredible speed. They are built for high performance, luxury, and excitement.</p>
+<p>
+
+
+
+
+  Made by Kash Bolsinger              To support follow me on github: <a href="https://github.com/kashlb" target="_blank">GitHub</a>
+</p>
+</body>
+</html>
